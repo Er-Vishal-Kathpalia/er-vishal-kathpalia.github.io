@@ -5,7 +5,7 @@ Built from scratch with vanilla HTML, CSS, and JavaScript — no frameworks, no 
 
 ## Live
 
-- [vishal-kathpalia.github.io](https://vishal-kathpalia.github.io/)
+- [vishalkathpalia.github.io](https://vishalkathpalia.github.io/)
 - [vishalkathpalia.qzz.io](https://vishalkathpalia.qzz.io/)
 
 ## Sections
@@ -57,23 +57,50 @@ Type these in the terminal for some fun:
 ### Responsive
 Fully responsive across desktop, tablet, and mobile. Touch-friendly interactions.
 
+## Project Structure
+
+```
+portfolio/
+├── index.html                          # Main HTML — all sections
+├── css/
+│   └── styles.css                      # All styles — themes, animations, responsive
+├── js/
+│   └── script.js                       # Terminal, games, Easter eggs, animations
+├── images/
+│   ├── profile.jpeg                    # Profile photo
+│   └── favicon.svg                     # Site icon
+├── docs/
+│   ├── Vishal-Kathpalia-Resume.pdf     # Downloadable resume
+│   └── Coding-Blocks-DSA-Certificate.pdf  # DSA certificate
+└── README.md
+```
+
 ## Run Locally
 
 ```bash
 # Any static file server works — specify a port to avoid conflicts
-python3 -m http.server 9080
+python3 -m http.server 8080
 ```
 
-Then open [http://localhost:9080](http://localhost:9080).
+Then open [http://localhost:8080](http://localhost:8080).
 
 Alternatively:
 ```bash
 # Using Node
-npx serve -p 9080
+npx serve -p 8080
 
 # Using PHP
-php -S localhost:9080
+php -S localhost:8080
 ```
+
+## Deployment
+
+Hosted on **GitHub Pages**. To deploy your own fork:
+
+1. Fork this repository
+2. Go to **Settings > Pages**
+3. Set source to **Deploy from a branch** > `main` / `/ (root)`
+4. (Optional) Add a custom domain under the same Pages settings
 
 ## Tech Stack
 
